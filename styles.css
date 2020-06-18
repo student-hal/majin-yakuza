@@ -1,0 +1,273 @@
+body {
+  background-color: thistle;
+  /* text-align: ; */
+}
+#header1 {
+  font-family: Georgia,serif;
+  color: rgb(24, 23, 23);
+  background-color: aqua;
+  border-bottom: 1px solid;
+  font-weight: bolder;
+  font-size: 100%;
+  margin: 0 auto;
+}
+#header2 a {
+  color: green;
+  background-color: #eeeeee;
+  border: 5px solid purple;
+  margin-left: 10px;
+}
+#header3 {
+  background-color: aqua;
+  list-style-type: none;
+}
+#main1 {
+  background-color: rgb(185, 14, 14);
+  border-top: solid;
+}
+#main2 #main3,
+#main4 em {
+  color: aqua;
+}
+#main7 {
+  color: violet;
+  background: green;
+  border-bottom: dotted;
+  border-color: purple;
+  font-family: serif;
+}
+#outer {
+  border: 5px solid black;
+  background-color: green;
+  /* width: calc(90% - 30px); */
+}
+#box {
+  padding: 10px;
+  width: calc(90% - 30px);
+  background-color: rebeccapurple;
+  color: white;
+}
+#box1 {
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  transform: rotate(0.8turn)
+}
+video {
+  width: 75%;
+}
+#img3 {
+  width: 100%;
+  /* background: blue url(laptop-5272766_1920.jpg) 10px 10px repeat-x fixed; */
+}
+#img5, #img6,
+#img7 {
+  border: 1px solid black;
+  background-color: lime;
+}
+#main8 {
+  color: #375e97;
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 1px solid #375e97;
+}
+#main9 {
+  color: #999999;
+  font-weight: bold;
+}
+#main11 {
+  font-size: 1.5em;
+}
+
+.li1 a:link, a:visited {
+  color: #375e97;
+}
+.li1 a:hover {
+  text-decoration: none;
+}
+.container1 {
+  display: flex;
+  /* justify-content: space-between */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+}
+.box {
+  width: 100px;
+  height: 100px;
+  flex: 1;
+  /* flex-basis: 200px; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+}
+.box1 {
+  background: #eeeeee;
+  /* align-self: center; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+}
+.box2 {
+  background: rgb(185, 14, 14);
+  /* order: -1; */
+  /* flex-grow: 0; */
+  /* flex-shrink: 1; */
+}
+.box3 {
+  background: #375e97;
+  /* flex: 1 */
+  /* flex-grow: 0; */
+}
+.box4 {
+  background:pink;
+  /* flex-shrink: 1; */
+}
+.body1 {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+}
+.header4 {
+  background: gold;
+  margin-bottom: 100px;
+}
+.container2 {
+  display: flex;
+  flex: 1;
+  margin-top: 50px;
+}
+.div1 {
+  background: green;
+  flex: 1;
+  /* height: 500px; */
+}
+.nav1 {
+  background: red;
+  width: 100px;
+  order: -1;
+}
+.aside1 {
+  background: orange;
+  width: 100px;
+}
+.footer1 {
+  background: gray;
+}
+.header5 {
+  height: 200px;
+  background: silver;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div2 {
+  width: 100px;
+  height: 40xp;
+  background: steelblue;
+  /* position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 50px); */
+}
+.header6 {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.nav2 {
+  background: blueviolet;
+  margin-left: auto;
+}
+.nav2 .ul1 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.nav2 a {
+  background: pink;
+  width: 100px;
+  text-align: center;
+  line-height: 64px;
+  display: block;
+}
+.nav2 a:hover {
+  background: #eee;
+}
+.section1 {
+  background: white;
+  display: flex;
+}
+.div3 {
+  width: 180px;
+  margin-right: 32px;
+  background: red;
+}
+.div4 {
+  flex: 1;
+}
+.section2 {
+  display: flex;
+  margin-bottom: 60px;
+  justify-content: space-between;
+}
+.section2:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.div5 {
+  width: 180px;
+  /* margin-right: 32px; */
+}
+.div6 {
+  /* flex: 1; */
+  width: calc(100% - 180px - 32px);
+}
+.header7 {
+  border-top: 1px solid black;
+}
+.body2 {
+  background-color: rgb(236, 236, 236);
+  color: #eee;
+  font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+.nav3 {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #eee;
+  margin-top: 1em;
+  padding-top: .5em;
+}
+.pagination {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.pagination a {
+  display: block;
+  padding: .5em 1em;
+  border: 1px solid #999;
+  border-radius: .2em;
+  text-decoration: none;
+}
+.pagination a[aria-current="page"] {
+  background-color: #333;
+  color: #fff;
+}li3
+
+@media (min-width: 900px) {
+  body {
+    background-color: tomato;
+  }
+}
